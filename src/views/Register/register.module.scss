@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../../assets/pic/1644639634972.png'); // 这里是背景图片的路径
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.icon {
+    font-size: 40px;
+    color: #1890ff;
+}
+
+.title {
+    margin: 0;
+    color: #fff; // 使标题在深色背景上更易阅读
+}
+
+.form {
+    max-width: 360px;
+    width: 100%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); // 半透明白色背景
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+    width: 100%;
+}
