@@ -1,0 +1,2 @@
+# info_management_Front
+轻量化第三次作业，使用React实现一个信息管理系统
